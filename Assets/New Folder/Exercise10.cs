@@ -8,38 +8,28 @@ public class Exercise10 : MonoBehaviour
 
     private void Start()
     {
-       if ( year%4 is 0 or 4  or 16 or 8 )
 
-            {
-            Debug.Log($"The year {year} is a leap year");
-                
+        if (0 ==year%4)
+        { 
+            if(0==year%100)
+            { 
+                if(0==year%400)
+                {
+                 Debug.Log($"{year} is a leap year");
+                }
+                else
+                {
+                    Debug.Log($"{year} is not a leap year");
+                }
             }
-       else
-        {
-            Debug.Log($"The year {year} is not a leap year");
+            else
+            {
+                Debug.Log($"{year} is a leap year");
+            }
         }
-
+        else 
+        {
+        Debug.Log($"{year} is not a leap year");
+        }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

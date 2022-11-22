@@ -6,7 +6,7 @@ public class Exercise5 : MonoBehaviour
 {
     public int age = 00;
 
-    private void start()
+    private void Start()
     {
         if (age < 18) { Debug.Log($"Hello, you are {age} years old, so you are NOT of legal age"); }
 
