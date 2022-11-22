@@ -19,7 +19,7 @@ public class Exercise10 : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log($"{year} is not a leap year");
+                 Debug.Log($"{year} is not a leap year");
                 }
             }
             else

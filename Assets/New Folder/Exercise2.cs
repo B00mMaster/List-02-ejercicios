@@ -5,44 +5,45 @@ using static UnityEngine.UIElements.UxmlAttributeDescription;
 
 public class Exercise2 : MonoBehaviour
 {
-    public int year=0 ;
+    public int year ;
 
     private void Start()
     {
-        if (year is 2017)
+       
+        if (year%12 is 1)
         { Debug.Log($"The year {year} belongs to the Rooster"); }
        
-        else if (year is 2018)
+        else if (year%12 is 2)
         { Debug.Log($"The year {year} belongs to the Dog"); }
         
-        else if (year is 2019)
+        else if (year%12 is 3)
         { Debug.Log($"The year {year} belongs to the Pig"); }
 
-        else if (year is 2020)
+        else if (year%12 is 4)
         { Debug.Log($"The year {year} belongs to the Rat");}
        
-        else if(year is 2021)
+        else if(year%12 is 5)
         { Debug.Log($"The year {year} belongs to the Ox"); }
        
-        else if (year is 2022)
+        else if (year%12 is 6)
         { Debug.Log($"The year {year} belongs to the Tiger"); }
       
-        else if (year is 2023)
+        else if (year%12 is 7)
         { Debug.Log($"The year {year} belongs to the Rabbit"); }
        
-        else if (year is 2024)
+        else if (year%12 is 8)
         { Debug.Log($"The year {year} belongs to the Dragon"); }
        
-        else if (year is 2025)
+        else if (year%12 is 9)
         { Debug.Log($"The year {year} belongs to the Snake"); }
        
-        else if (year is 2026)
+        else if (year%12 is 10)
         { Debug.Log($"The year {year} belongs to the Horse"); }
       
-        else if (year is 2027)
+        else if (year%12 is 11)
         { Debug.Log($"The year {year} belongs to the Goat"); }
        
-        else if (year is 2028)
+        else if (year%12 is 0)
         { Debug.Log($"The year {year} belongs to the Monkey"); }
       
         
